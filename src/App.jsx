@@ -4,11 +4,12 @@ import UserGrid from './UserGrid'
 import PegaGrid from './PegaGrid'
 
 
+
 function App() {
   return (
     <div
         className="App">
-        <Input></Input>
+        {/* <Input></Input> */}
         <h2>Ngựa</h2>
         <PegaGrid></PegaGrid>
         <h2>User</h2>
@@ -16,6 +17,7 @@ function App() {
     </div>
   );
 }
+
 
 
 export default App;

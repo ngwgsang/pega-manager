@@ -1,13 +1,14 @@
-import React from 'react'
-import PegaCard from './PegaCard'
+import React, { useState} from 'react'
+// import PegaCard from './PegaCard'
+
 
 export default function PegaGrid() {
+
+
   return (
-    <div className='grid row'>
-        <PegaCard></PegaCard>
-        <PegaCard></PegaCard>
-        <PegaCard></PegaCard>
-        <PegaCard></PegaCard>
-    </div>
-  )
+    <div className='grid row pega-grid'></div>
+  )  
 }
+
+
+

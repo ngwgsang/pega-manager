@@ -8,10 +8,10 @@ export default function User() {
         <div className='info'>
           <p className='bold'>Tổng VIS <span className='rounded-box hold'>9999</span></p>
           <p className='bold'>Tổng thu hôm nay <span className='rounded-box today'>99</span></p>
-          <p className='bold row'>🏁:  
-            <span className='top1 rounded-box'>2</span>
-            <span className='top2 rounded-box'>3</span>
-            <span className='top3 rounded-box'>7</span>
+          <p className='bold row'>Win   
+            <span className='rounded-box'>🥇: 2</span>
+            <span className='rounded-box'>🥈: 3</span>
+            <span className='rounded-box'>🥉: 7</span>
           </p>
         </div>
     </div>
